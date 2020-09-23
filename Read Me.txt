@@ -1,0 +1,46 @@
+
+Neopets Shop Bot (Or Autobuyer)
+Coded by Machiavellian
+
+I) ABOUT
+
+   This is an autobuyer for the online game Neopets. If you're looking for this, you
+   probably know what an autobuyer does. Everything was coded by me for me, but since I
+   don't play Neopets anymore I decided to make it available to the public. Enjoy.
+
+2) COMPUTER SETTINGS
+
+   To get this program working you need to change a certain setting in Internet Explorer.
+   Under Tools -> Internet Options... -> General -> Temporary Internet Files -> Settings
+   -> Check for newer versions of stored pages, change from 'Automatically' (Default) to 
+   'Every visit to the page'. Turning off images in Internet Explorer is also HIGHLY 
+   recommended. (Google if you don't know how)
+
+   If you recieve an error that states you are missing an OCX file (Such as TABCTL32.OCX) 
+   when you run the program, Google the name of the file, download it, and place it into 
+   your Windows\System32 folder.
+
+3) RUNNING THE PROGRAM
+
+   You must first be logged in to Neopets through Internet Explorer. Now in the Options
+   tab, change the Shop ID to the shop you want to autobuy in. The appropriate filter list
+   should load if there is one in the \Data folder. Now in Main, click Run to start auto-
+   buying. Anything that matches the filter list will be bought automatically. You can also
+   double-click an item in the list box to buy them.
+
+4) OPTIONS
+
+   Shop ID - The ID of the shop that the autobuyer checks for items
+   Refresh Delay - Delay between each refresh
+   Haggle % - Percent of the asking price to haggle for
+
+   Reference Shop - The shop used to check if a restock is occuring (Food shop is the 
+      default as it sells out quickly after a restock occurs)
+   Check Interval - If are no items in the reference shop, it checks again after x seconds
+   Refresh Interval - If there are items in the reference shop, it starts checking the Shop
+      for items for x seconds
+   Wait Interval - After the restock interval, it waits for x seconds
+
+5) CONTACT
+
+   Email - machiavelliansquared@yahoo.com
